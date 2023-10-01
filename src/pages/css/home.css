@@ -5,6 +5,10 @@
   justify-content: space-around;
 }
 
+.description {
+  width: 600px;
+}
+
 .color-btn {
     background-color: #0dcaf0;
     transition: .5s;

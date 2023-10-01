@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portafolio de [Tu Nombre]
 
-## Getting Started
+¡Bienvenido a mi portafolio de desarrollo full stack! Aquí encontrarás una selección de mis proyectos y trabajos que representan mi experiencia y habilidades como desarrollador. Siéntete libre de explorar y conocer más sobre mi trabajo.
 
-First, run the development server:
+## Acerca de mí
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Soy Constanza, una apasionada desarrolladora full stack con experiencia en la creación de aplicaciones web completas, desde el front-end hasta el back-end. Mi objetivo es combinar una sólida base técnica con una visión creativa para desarrollar soluciones impactantes y eficientes.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tecnologías Destacadas
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Algunas de las tecnologías que he utilizado en mis proyectos incluyen:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Front-end**: HTML, CSS, JavaScript, React, Bootstrap, Tailwind, Frame Emotion,
+- **Back-end**: Node.js, Express
+- **Bases de datos**: MongoDB
+- **Control de Versiones**: Git, GitHub
 
-## Learn More
+## Proyectos Destacados
 
-To learn more about Next.js, take a look at the following resources:
+### Ecommerce
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Descubre la moda desde tu dispositivo con nuestra aplicación de venta de ropa. Explora una amplia gama de estilos, desde lo casual hasta lo elegante, con fotos de alta calidad. Realiza compras seguras y recibe envíos rápidos. Descarga la aplicación y viste con confianza en cada ocasión.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+[Enlace al Código](https://github.com/ConnaP/ecommerce-front)
+[Enlace al Sitio en Vivo](https://sparkling-youtiao-0cfe9b.netlify.app/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Restaurant
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Descubre una experiencia gastronómica sin igual desde la comodidad de tu dispositivo. Explora una amplia variedad de restaurantes de alta calidad y deliciosas cocinas, desde platos tradicionales hasta creaciones culinarias innovadoras.
+
+[Enlace al Código](https://github.com/ConnaP/Proyecto-Restaurant-App)
+
+
+### Crud
+
+Bienvenido a nuestra sencilla pero poderosa aplicación con operaciones CRUD. Nuestra aplicación está diseñada para hacer que la gestión de datos sea rápida y eficiente
+
+
+[Enlace al Código](https://connap.github.io/proyecto-crud/)
+[Enlace al Sitio en Vivo](https://connap.github.io/proyecto-crud/)
+
+### Shop
+
+Bienvenido a la mejor experiencia de compra de zapatillas! Nuestra aplicación te trae la última moda en calzado directamente a tus manos. Explora una amplia colección de zapatillas de todas las marcas, estilos y tallas
+
+
+[Enlace al Código](https://github.com/ConnaP/proyecto-pagina-web)
+[Enlace al Sitio en Vivo](https://connap.github.io/proyecto-crud/)
+
+## Cómo Contactarme
+
+Estoy siempre interesado en nuevas oportunidades y colaboraciones. Puedes contactarme a través de:
+
+- Correo electrónico: [coni.palavecino@gmail.com]
+- LinkedIn: [Constanza Palavecino Neira](https://www.linkedin.com/in/constanza-andrea-palavecino-neira-50ba9413b)
+
+
+¡Gracias por visitar mi portafolio! Espero que disfrutes explorando mis proyectos tanto como disfruté creándolos.
+

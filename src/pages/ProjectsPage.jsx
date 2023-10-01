@@ -6,7 +6,7 @@ const ProjectsPage = () => {
   return (
     <>
      <div className="text-4xl">
-        <AnimatedTextComponent className="mb-4 mt-4" text={"PROJECTS"} />
+        <AnimatedTextComponent className="mb-8 mt-4" text={"PROJECTS"} />
       </div>
       <div className="container-projects-page">
         <ProjectsComponent />
