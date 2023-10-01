@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import "@/components/Css/AnimatedSkillSComponent.css";
+import "@/components/Css/AnimatedSkillsComponent.css";
 
 const AnimatedSkillsComponent = () => {
   const skillsImage = [

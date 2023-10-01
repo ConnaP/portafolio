@@ -5,6 +5,16 @@
   justify-content: space-around;
 }
 
+.color-btn {
+    background-color: #0dcaf0;
+    transition: .5s;
+}
+
+.color-btn:hover {
+    border: 2px solid #0dcaf0;
+    background-color: #fff;
+}
+
 @media (max-width: 1055px) {
   .container-home{
     justify-content: center;

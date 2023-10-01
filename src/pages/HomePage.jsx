@@ -28,14 +28,14 @@ const HomePage = () => {
             className="
               flex 
               items-center 
-              justify-center 
-              bg-slate-800 
+              justify-center
+              color-btn
               text-slate-100 
               p-2 
               rounded-lg 
               text-lg 
-              hover:bg-slate-100 
-              hover:text-slate-900"
+              hover:text-slate-900
+              "
           />
         </div>
       </main>
