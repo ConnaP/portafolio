@@ -1,4 +1,4 @@
-# Portafolio de [Tu Nombre]
+# Portafolio de Constanza Palavecino
 
 ¡Bienvenido a mi portafolio de desarrollo full stack! Aquí encontrarás una selección de mis proyectos y trabajos que representan mi experiencia y habilidades como desarrollador. Siéntete libre de explorar y conocer más sobre mi trabajo.
 
@@ -52,7 +52,7 @@ Bienvenido a la mejor experiencia de compra de zapatillas! Nuestra aplicación t
 
 Estoy siempre interesado en nuevas oportunidades y colaboraciones. Puedes contactarme a través de:
 
-- Correo electrónico: [coni.palavecino@gmail.com]
+- Correo electrónico: coni.palavecino@gmail.com
 - LinkedIn: [Constanza Palavecino Neira](https://www.linkedin.com/in/constanza-andrea-palavecino-neira-50ba9413b)
 
 
