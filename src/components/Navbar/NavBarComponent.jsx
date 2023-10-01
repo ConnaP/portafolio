@@ -15,9 +15,9 @@ const NavBarComponent = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   const menuItems = [
-    "Inicio",
-    "Proyectos",
-    "Tecnologías",
+    { name: "Inicio", url: "/" },
+    { name: "Proyectos", url: "/projects" },
+    { name: "Tecnologías", url: "/skill" },
   ];
 
   return (
@@ -48,7 +48,7 @@ const NavBarComponent = () => {
       </NavbarContent>
       <NavbarMenu>
         {menuItems.map((item, index) => (
-          <NavbarMenuItem key={`${item}-${index}`}>
+          <NavbarMenuItem key={`${index}`}>
             <Link
               color={
                 index === 2
@@ -58,10 +58,10 @@ const NavBarComponent = () => {
                   : "foreground"
               }
               className="w-full"
-              href="#"
+              href={item.url}
               size="lg"
             >
-              {item}
+              {item.name}
             </Link>
           </NavbarMenuItem>
         ))}
