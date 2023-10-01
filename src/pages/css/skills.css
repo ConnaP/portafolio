@@ -1,0 +1,9 @@
+.container-p {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.container-skills {
+    max-width: 48rem;
+}

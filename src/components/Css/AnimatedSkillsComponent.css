@@ -1,0 +1,14 @@
+.container-p {
+  justify-content: center;
+}
+
+.container-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-skill {
+  width: 170px;
+  height: 170px;
+}
