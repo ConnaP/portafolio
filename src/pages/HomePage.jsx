@@ -2,17 +2,19 @@ import AnimatedButtonComponent from "@/components/Animateds/AnimatedButtonCompon
 import AnimatedImageComponent from "@/components/Animateds/AnimatedImageComponent";
 import AnimatedTextComponent from "@/components/Animateds/AnimatedTextComponent";
 
+import '@/pages/css/home.css'
+
 const HomePage = () => {
   return (
     <div className="w-full h-full px-32">
-      <main className="flex items-center justify-between w-full ">
+      <main className="flex items-center justify-between w-full container-home">
         <AnimatedImageComponent
-          className="w-1/2"
+          // className="w-1/2"
           heightIamge={550}
           urlImage="/assets/avatar.jpeg"
           widthImage={350}
         />
-        <div className="w-1/2 text-4xl">
+        <div className="text-4xl">
           <AnimatedTextComponent
             className="mb-4"
             text={"Constanza Palavecino"}

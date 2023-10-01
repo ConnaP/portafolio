@@ -2,10 +2,8 @@
 import React from "react";
 
 import {
-  Button,
   Link,
   Navbar,
-  NavbarBrand,
   NavbarContent,
   NavbarItem,
   NavbarMenu,
@@ -13,22 +11,13 @@ import {
   NavbarMenuToggle,
 } from "@nextui-org/react";
 
-import { AcmeLogo } from "./AcmeLogo.jsx";
-
 const NavBarComponent = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   const menuItems = [
-    "Profile",
-    "Dashboard",
-    "Activity",
-    "Analytics",
-    "System",
-    "Deployments",
-    "My Settings",
-    "Team Settings",
-    "Help & Feedback",
-    "Log Out",
+    "Inicio",
+    "Proyectos",
+    "Tecnologías",
   ];
 
   return (
@@ -46,7 +35,6 @@ const NavBarComponent = () => {
             Inicio
           </Link>
         </NavbarItem>
-        {/* <NavbarItem isActive> */}
         <NavbarItem>
           <Link href="/projects" color="foreground" aria-current="page">
             Proyectos

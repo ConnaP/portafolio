@@ -1,0 +1,12 @@
+.container-home {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-around;
+}
+
+@media (max-width: 1055px) {
+  .container-home{
+    justify-content: center;
+  }
+}
