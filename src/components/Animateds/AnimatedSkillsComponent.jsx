@@ -47,6 +47,8 @@ const AnimatedSkillsComponent = () => {
           <a className="flex" href="#">
             <div className="overflow-hidden aspect-video cursor-pointer rounded-xl relative group w-52 h-52 container-image">
               <Image
+                width={200}
+                height={200}
                 alt=""
                 className="object-cover w-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out img-skill"
                 src={img}

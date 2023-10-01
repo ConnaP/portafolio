@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 
-import '@/components/Css/ProjectsComponent.css'
+import "@/components/Css/ProjectsComponent.css";
 import Image from "next/image";
 
 const ProjectsComponent = () => {
@@ -11,28 +11,28 @@ const ProjectsComponent = () => {
       url: "https://sparkling-youtiao-0cfe9b.netlify.app/",
       git: "https://github.com/ConnaP/ecommerce-front",
       title: "Ecommerce",
-      text: "Descubre la moda desde tu dispositivo con nuestra aplicación de venta de ropa. Explora una amplia gama de estilos, desde lo casual hasta lo elegante, con fotos de alta calidad. Realiza compras seguras y recibe envíos rápidos. Descarga la aplicación y viste con confianza en cada ocasión."
+      text: "Descubre la moda desde tu dispositivo con nuestra aplicación de venta de ropa. Explora una amplia gama de estilos, desde lo casual hasta lo elegante, con fotos de alta calidad. Realiza compras seguras y recibe envíos rápidos. Descarga la aplicación y viste con confianza en cada ocasión.",
     },
     {
       img: "/assets/02-restaurant.png",
       url: "/",
       git: "https://github.com/ConnaP/Proyecto-Restaurant-App",
       title: "Restaurant",
-      text: "Descubre una experiencia gastronómica sin igual desde la comodidad de tu dispositivo. Explora una amplia variedad de restaurantes de alta calidad y deliciosas cocinas, desde platos tradicionales hasta creaciones culinarias innovadoras."
+      text: "Descubre una experiencia gastronómica sin igual desde la comodidad de tu dispositivo. Explora una amplia variedad de restaurantes de alta calidad y deliciosas cocinas, desde platos tradicionales hasta creaciones culinarias innovadoras.",
     },
     {
       img: "/assets/03-crud.png",
       url: "https://connap.github.io/proyecto-crud/",
       git: "https://github.com/ConnaP/proyecto-crud",
       title: "Crud",
-      text: "Bienvenido a nuestra sencilla pero poderosa aplicación con operaciones CRUD. Nuestra aplicación está diseñada para hacer que la gestión de datos sea rápida y eficiente"
+      text: "Bienvenido a nuestra sencilla pero poderosa aplicación con operaciones CRUD. Nuestra aplicación está diseñada para hacer que la gestión de datos sea rápida y eficiente",
     },
     {
       img: "/assets/04-shop.png",
       url: "https://connap.github.io/proyecto-crud/",
       git: "https://github.com/ConnaP/proyecto-pagina-web",
       title: "Shop",
-      text: "Bienvenido a la mejor experiencia de compra de zapatillas! Nuestra aplicación te trae la última moda en calzado directamente a tus manos. Explora una amplia colección de zapatillas de todas las marcas, estilos y tallas"
+      text: "Bienvenido a la mejor experiencia de compra de zapatillas! Nuestra aplicación te trae la última moda en calzado directamente a tus manos. Explora una amplia colección de zapatillas de todas las marcas, estilos y tallas",
     },
   ];
 
@@ -52,16 +52,15 @@ const ProjectsComponent = () => {
 
   return (
     <>
-      <motion.div
-        initial="initial"
-        animate="animate"
-        variants={leftInitial}
-      >
+      <motion.div initial="initial" animate="animate" variants={leftInitial}>
         <div className="container-project">
           {projectsImage.map((p, index) => (
-            <div key={index} className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 container-card">
+            <div
+              key={index}
+              className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 container-card"
+            >
               <a href={p.url}>
-                <Image className="rounded-t-lg" src={p.img} alt="" />
+                <Image width={400} height={400} className="rounded-t-lg" src={p.img} alt="" />
               </a>
               <div className="p-5">
                 <a href="#">
