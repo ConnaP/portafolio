@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 
 import '@/components/Css/ProjectsComponent.css'
+import Image from "next/image";
 
 const ProjectsComponent = () => {
   const projectsImage = [
@@ -57,10 +58,10 @@ const ProjectsComponent = () => {
         variants={leftInitial}
       >
         <div className="container-project">
-          {projectsImage.map((p) => (
-            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 container-card">
+          {projectsImage.map((p, index) => (
+            <div key={index} className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 container-card">
               <a href={p.url}>
-                <img className="rounded-t-lg" src={p.img} alt="" />
+                <Image className="rounded-t-lg" src={p.img} alt="" />
               </a>
               <div className="p-5">
                 <a href="#">
