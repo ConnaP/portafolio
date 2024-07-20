@@ -6,7 +6,7 @@ import '@/pages/css/home.css'
 
 const HomePage = () => {
   return (
-    <div className="w-full h-full pl-6 pr-20">
+    <div className="w-full h-full px-24">
       <main className="flex items-center justify-between w-full container-home">
         <AnimatedImageComponent
           heightIamge={600}
