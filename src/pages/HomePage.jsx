@@ -6,7 +6,7 @@ import '@/pages/css/home.css'
 
 const HomePage = () => {
   return (
-    <div className="w-full h-full px-14">
+    <div className="w-full h-full px-2">
       <main className="flex items-center justify-between w-full container-home">
         <AnimatedImageComponent
           heightIamge={600}
@@ -16,7 +16,7 @@ const HomePage = () => {
         <div className="text-1xl description">
           <AnimatedTextComponent
             className="mb-4"
-            text={"¡Hola! Soy Constanza Palavecino, diseñadora UX/UI y desarrolladora full stack. Me encanta crear experiencias digitales que sean intuitivas y atractivas para los usuarios. Combino mis habilidades en diseño y desarrollo para ofrecer soluciones completas, desde la idea inicial hasta el producto final."}
+            text={"¡Hola! Soy Constanza Palavecino, diseñadora UI/UX y desarrolladora full stack. Me encanta crear experiencias digitales que sean intuitivas y atractivas para los usuarios. Combino mis habilidades en diseño y desarrollo para ofrecer soluciones completas, desde la idea inicial hasta el producto final."}
           />
           <AnimatedTextComponent
             className="mb-4 capitalize font-bold"
