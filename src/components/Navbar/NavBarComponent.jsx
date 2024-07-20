@@ -42,7 +42,7 @@ const NavBarComponent = () => {
         </NavbarItem>
         <NavbarItem>
           <Link color="foreground" href="/skill">
-            Tecnologias
+            Tecnologías
           </Link>
         </NavbarItem>
       </NavbarContent>

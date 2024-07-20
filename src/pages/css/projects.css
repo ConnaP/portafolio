@@ -3,3 +3,9 @@
     align-content: center;
     justify-content: center;
 }
+
+.row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
