@@ -5,18 +5,18 @@ import Image from "next/image";
 
 const AnimatedSkillsComponent = () => {
   const skillsImage = [
+    "/assets/skills-figma.png",
+    "/assets/miro.png",
+    "/assets/skills-maze.avif",
     "/assets/skills-html.png",
     "/assets/skills-css.png",
     "/assets/skills-js.png",
     "/assets/skills-boostrap.png",
     "/assets/skills-reactjs.png",
-    "/assets/skills-nextjs.png",
-    "/assets/skills-tailwind.png",
-    "/assets/skills-frameemotion.png",
-    "/assets/skills-nodejs.png",
-    "/assets/skills-express.png",
-    "/assets/skills-mongodb.png",
     "/assets/skills-firebase.png",
+    "/assets/skills-tailwind.png",
+    "/assets/skills-nodejs.png",
+    "/assets/skills-mongodb.png",
   ];
 
   const leftInitial = {

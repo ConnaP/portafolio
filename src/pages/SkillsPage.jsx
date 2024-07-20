@@ -13,7 +13,7 @@ const SkillsPage = () => {
           <AnimatedTextComponent
             className="mb-4 mt-4"
             text={
-              "¡Hola! Soy una desarrolladora full stack apasionada por la creación de soluciones tecnológicas innovadoras que impulsan el mundo digital. Mi enfoque se centra en el desarrollo de aplicaciones web completas, desde la interfaz de usuario hasta el servidor y la base de datos."
+              "¡Hola! Soy Constanza Palavecino, diseñadora UX/UI y desarrolladora full stack. Me encanta crear experiencias digitales que sean intuitivas y atractivas para los usuarios. Combino mis habilidades en diseño y desarrollo para ofrecer soluciones completas, desde la idea inicial hasta el producto final."
             }
           />
         </div>
